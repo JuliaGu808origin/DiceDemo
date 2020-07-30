@@ -43,7 +43,8 @@ class PlayArea extends Component {
                     <div className="row">
                         <div className="six wide column">extra tärning Nr {this.props.extraDice} </div>
                         <div className="six wide column">
-                            <button onClick={this.handleExtraRandom} className="button">slås</button>                      
+                            <button onClick={this.handleExtraRandom} className="button">slås</button> 
+                            Total nu: {this.showResult()}                    
                         </div>
                     </div>
                 </div>
@@ -53,7 +54,8 @@ class PlayArea extends Component {
                     <div className="row">
                         <div className="six wide column">tärning Nr {this.props.diceNumber} </div>
                         <div className="six wide column">
-                            <button onClick={this.handleRandom} className="button">slås</button>                      
+                            <button onClick={this.handleRandom} className="button">slås</button> 
+                            Total nu: {this.showResult()}
                         </div>
                     </div>
                 </div>)
