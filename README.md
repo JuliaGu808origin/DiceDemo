@@ -1,9 +1,8 @@
-React.js Demo
-
+# React.js Demo
 
 Use Visual Stodio Code, npm install först, sen npm run och på localhost://3000
 
---Obegränsad 6-sidig tärning--
+# Obegränsad 6-sidig tärning
 
 1.Minst 1 och max 5 tärningar skall väljas av användaren.
 
